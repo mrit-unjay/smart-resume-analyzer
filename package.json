@@ -1,0 +1,14 @@
+{
+  "name": "smart-resume-analyzer",
+  "version": "1.0.0",
+  "description": "AI-powered resume analyzer using LLM + VLM (GPT-4o multimodal)",
+  "scripts": {
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm start",
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
