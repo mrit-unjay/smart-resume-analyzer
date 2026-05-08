@@ -228,6 +228,4 @@ npm run build
 
 ---
 
-## 📄 License
 
-MIT — use freely, star if useful ⭐
